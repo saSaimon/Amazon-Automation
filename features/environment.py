@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
-from App.Application import Application
+from App.application import Application
 from selenium.webdriver.support.wait import WebDriverWait
 
 # behave -f allure_behave.formatter:AllureFormatter -o test_results/ features/tests/bestsellers.feature
